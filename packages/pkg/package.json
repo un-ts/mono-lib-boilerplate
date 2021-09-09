@@ -7,7 +7,7 @@
   "homepage": "https://github.com/rx-ts/mono-lib-boilerplate/blob/main/packages/pkg",
   "author": "JounQin <admin@1stg.me>",
   "exports": {
-    "import": "./lib.index.js",
+    "import": "./lib/index.js",
     "require": "./lib/index.cjs"
   },
   "types": "lib",
