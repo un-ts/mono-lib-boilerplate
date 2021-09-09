@@ -1,0 +1,85 @@
+{
+  "name": "mono-lib-boilerplate",
+  "version": "0.0.0",
+  "type": "module",
+  "repository": "git+https://github.com/rx-ts/mono-lib-boilerplate.git",
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "run-p build:*",
+    "build:r": "r -f cjs",
+    "build:tsc": "tsc -b",
+    "jest": "node --experimental-vm-modules node_modules/.bin/jest",
+    "lint": "run-p lint:*",
+    "lint:es": "eslint . --cache -f friendly",
+    "lint:tsc": "tsc --noEmit",
+    "prepare": "simple-git-hooks && yarn-deduplicate --strategy fewer || exit 0",
+    "prerelease": "yarn build",
+    "release": "changeset publish",
+    "test": "yarn jest",
+    "ts": "node --loader ts-node/esm",
+    "typecov": "type-coverage"
+  },
+  "devDependencies": {
+    "@1stg/lib-config": "^4.0.0",
+    "@changesets/changelog-github": "^0.4.1",
+    "@changesets/cli": "^2.17.0",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "type-coverage": "^2.18.2",
+    "typescript": "^4.4.2"
+  },
+  "resolutions": {
+    "prettier": "^2.3.2"
+  },
+  "commitlint": {
+    "extends": "@1stg"
+  },
+  "eslintConfig": {
+    "extends": "@1stg"
+  },
+  "eslintIgnore": [
+    "coverage",
+    "lib"
+  ],
+  "jest": {
+    "preset": "ts-jest/presets/default-esm",
+    "collectCoverage": true,
+    "globals": {
+      "ts-jest": {
+        "useESM": true
+      }
+    },
+    "moduleNameMapper": {
+      "^(\\.{1,2}/.*)\\.js$": "$1",
+      "pkg": "<rootDir>/packages/pkg/src"
+    }
+  },
+  "prettier": "@1stg/prettier-config",
+  "remarkConfig": {
+    "plugins": [
+      "@1stg/remark-config"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "@1stg"
+    ]
+  },
+  "typeCoverage": {
+    "atLeast": 100,
+    "cache": true,
+    "detail": true,
+    "ignoreAsAssertion": true,
+    "ignoreNonNullAssertion": true,
+    "showRelativePath": true,
+    "strict": true,
+    "update": true
+  }
+}

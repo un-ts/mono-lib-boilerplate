@@ -1,0 +1,14 @@
+{
+  "extends": "@1stg/tsconfig/lib",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "pkg": ["packages/pkg/src"]
+    }
+  },
+  "references": [
+    {
+      "path": "packages/pkg"
+    }
+  ]
+}
