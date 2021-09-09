@@ -2,6 +2,7 @@
   "extends": "@1stg/tsconfig/lib",
   "compilerOptions": {
     "baseUrl": ".",
+    "noEmit": true,
     "paths": {
       "pkg": ["packages/pkg/src"]
     }

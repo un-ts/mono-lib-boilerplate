@@ -2,6 +2,7 @@
   "name": "mono-lib-boilerplate",
   "version": "0.0.0",
   "type": "module",
+  "description": "A simple mono library boilerplate.",
   "repository": "git+https://github.com/rx-ts/mono-lib-boilerplate.git",
   "author": "JounQin <admin@1stg.me>",
   "license": "MIT",
