@@ -30,7 +30,7 @@
     "@1stg/lib-config": "^4.0.0",
     "@changesets/changelog-github": "^0.4.1",
     "@changesets/cli": "^2.17.0",
-    "@types/jest": "^27.0.1",
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.7.13",
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
