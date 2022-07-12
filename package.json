@@ -4,7 +4,7 @@
   "type": "module",
   "description": "A simple mono library boilerplate",
   "repository": "git+https://github.com/rx-ts/mono-lib-boilerplate.git",
-  "author": "JounQin <admin@1stg.me>",
+  "author": "JounQin (https://www.1stG.me) <admin@1stg.me>",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -23,13 +23,15 @@
     "lint:es": "eslint . --cache -f friendly",
     "lint:style": "stylelint . --cache",
     "lint:tsc": "tsc --noEmit",
+    "postversion": "pnpm i --no-frozen-lockfile",
     "prepare": "simple-git-hooks",
     "prerelease": "pnpm build",
     "release": "changeset publish",
     "serve": "sirv dist -s",
     "test": "jest",
     "typecov": "type-coverage",
-    "vercel-build": "w -e docs -p --publicPath /"
+    "vercel-build": "w -e docs -p --publicPath /",
+    "version": "changeset version"
   },
   "devDependencies": {
     "@1stg/app-config": "^6.0.0",
