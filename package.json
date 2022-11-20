@@ -42,7 +42,7 @@
     "@pkgr/webpack-mdx": "^2.2.0",
     "@types/node": "^18.7.16",
     "@types/react": "^18.0.19",
-    "@types/react-dom": "^18.0.6",
+    "@types/react-dom": "^18.0.9",
     "@types/web": "^0.0.72",
     "@vitest/coverage-istanbul": "^0.23.2",
     "github-markdown-css": "^5.1.0",
