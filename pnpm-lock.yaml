@@ -16,7 +16,7 @@ importers:
       '@types/node': ^18.7.16
       '@types/react': ^18.0.19
       '@types/react-dom': ^18.0.6
-      '@types/web': ^0.0.72
+      '@types/web': ^0.0.99
       '@vitest/coverage-istanbul': ^0.23.2
       github-markdown-css: ^5.1.0
       pkg: workspace:*
@@ -39,7 +39,7 @@ importers:
       '@types/node': 18.7.16
       '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
-      '@types/web': 0.0.72
+      '@types/web': 0.0.99
       '@vitest/coverage-istanbul': 0.23.2_less@4.1.3+stylus@0.59.0
       github-markdown-css: 5.1.0
       pkg: link:packages/pkg
@@ -3821,8 +3821,8 @@ packages:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
     dev: true
 
-  /@types/web/0.0.72:
-    resolution: {integrity: sha512-8ELWTmT6gpjH+mFCN6jja/pmXBZTOjSvfnBcxwP7xKC9tkqLNVxtQX/o2W0c1VcUR2ZFPoPSNH7YtdZQfHOvmg==}
+  /@types/web/0.0.99:
+    resolution: {integrity: sha512-xMz3tOvtkZzc7RpQrDNiLe5sfMmP+fz8bOxHIZ/U8qXyvzDX4L4Ss1HCjor/O9DSelba+1iXK1VM7lruX28hiQ==}
     dev: true
 
   /@types/ws/8.5.3:
