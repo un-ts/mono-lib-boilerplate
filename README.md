@@ -1,7 +1,6 @@
 # mono-lib-boilerplate
 
 [![GitHub Actions](https://github.com/un-ts/mono-lib-boilerplate/workflows/CI/badge.svg)](https://github.com/un-ts/mono-lib-boilerplate/actions/workflows/ci.yml)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/un-ts/mono-lib-boilerplate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/un-ts/mono-lib-boilerplate/context:javascript)
 [![Codecov](https://img.shields.io/codecov/c/gh/un-ts/mono-lib-boilerplate)](https://codecov.io/gh/un-ts/mono-lib-boilerplate)
 [![type-coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fun-ts%2Fmono-lib-boilerplate%2Fmain%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
 [![GitHub release](https://img.shields.io/github/release/un-ts/mono-lib-boilerplate)](https://github.com/un-ts/mono-lib-boilerplate/releases)
