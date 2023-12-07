@@ -20683,7 +20683,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.0.0, vite@npm:^5.0.6":
+"vite@npm:5.0.6":
   version: 5.0.6
   resolution: "vite@npm:5.0.6"
   dependencies:
@@ -20720,6 +20720,46 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: c4647591c76ad5a3b818efef37fb23d793512be832b7daa6c54719f24b0dbadfe383b18cf0896e2c4eaf9d1acab031b3caeaa36570b79ce9da2be6a328d27a1e
+  languageName: node
+  linkType: hard
+
+"vite@patch:vite@npm%3A5.0.6#~/.yarn/patches/vite-npm-5.0.6-d33c199e48.patch":
+  version: 5.0.6
+  resolution: "vite@patch:vite@npm%3A5.0.6#~/.yarn/patches/vite-npm-5.0.6-d33c199e48.patch::version=5.0.6&hash=61acc3"
+  dependencies:
+    esbuild: "npm:^0.19.3"
+    fsevents: "npm:~2.3.3"
+    postcss: "npm:^8.4.32"
+    rollup: "npm:^4.2.0"
+  peerDependencies:
+    "@types/node": ^18.0.0 || >=20.0.0
+    less: "*"
+    lightningcss: ^1.21.0
+    sass: "*"
+    stylus: "*"
+    sugarss: "*"
+    terser: ^5.4.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    less:
+      optional: true
+    lightningcss:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    terser:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 197d9dd0e8dd2db16d1493aaee034bf4f1d4e5d5dd38b221f51ed75f98ca3a07f7e9a95ed6c7924f51fd9faae800207d195f742e46594757314c53309dab9848
   languageName: node
   linkType: hard
 
