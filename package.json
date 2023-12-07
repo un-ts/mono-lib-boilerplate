@@ -12,12 +12,12 @@
   ],
   "packageManager": "yarn@4.0.2",
   "scripts": {
-    "build": "run-p 'build:*'",
+    "build": "concurrently 'yarn:build:*'",
     "build:r": "r -f cjs",
     "build:tsc": "tsc -b",
     "clean": "rimraf -g 'packages/**/{lib,*.tsbuildinfo}'",
     "dev": "vite dev",
-    "lint": "run-p 'lint:*'",
+    "lint": "concurrently 'yarn:lint:*'",
     "lint:es": "eslint . --cache -f friendly",
     "lint:style": "stylelint . --cache",
     "lint:tsc": "tsc --noEmit",
@@ -26,7 +26,7 @@
     "serve": "sirv dist -s",
     "test": "vitest run --coverage",
     "typecov": "type-coverage",
-    "vercel-build": "yarn build && vite build",
+    "vercel-build": "vite build",
     "version": "changeset version && yarn --no-immutable"
   },
   "devDependencies": {
@@ -43,10 +43,10 @@
     "@types/web": "^0.0.125",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "@vitest/coverage-istanbul": "^1.0.2",
+    "concurrently": "^8.2.2",
     "eslint": "^8.55.0",
     "github-markdown-css": "^5.4.0",
     "lint-staged": "^15.2.0",
-    "npm-run-all": "^4.1.5",
     "pkg": "link:packages/pkg",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -69,7 +69,8 @@
     "esbuild": "^0.19.8",
     "lint-staged": "^15.2.0",
     "prettier": "^2.8.8",
-    "rollup": "^4.6.1"
+    "rollup": "^4.6.1",
+    "vite": "patch:vite@npm%3A5.0.6#~/.yarn/patches/vite-npm-5.0.6-d33c199e48.patch"
   },
   "commitlint": {
     "extends": "@1stg"
