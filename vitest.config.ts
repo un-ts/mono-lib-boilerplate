@@ -9,6 +9,7 @@ export default defineConfig({
   ],
   test: {
     coverage: {
+      include: ['packages/*/src'],
       provider: 'istanbul',
       reporter: ['lcov', 'json', 'text'],
     },
