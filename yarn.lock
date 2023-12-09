@@ -14042,7 +14042,7 @@ __metadata:
     type-coverage: "npm:^2.27.0"
     typescript: "npm:^5.3.3"
     unplugin-auto-import: "npm:^0.17.2"
-    vite: "npm:^5.0.6"
+    vite: "npm:^5.0.7"
     vitest: "npm:^1.0.2"
   languageName: unknown
   linkType: soft
@@ -20683,9 +20683,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.0.6":
-  version: 5.0.6
-  resolution: "vite@npm:5.0.6"
+"vite@npm:5.0.7":
+  version: 5.0.7
+  resolution: "vite@npm:5.0.7"
   dependencies:
     esbuild: "npm:^0.19.3"
     fsevents: "npm:~2.3.3"
@@ -20719,13 +20719,13 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: c4647591c76ad5a3b818efef37fb23d793512be832b7daa6c54719f24b0dbadfe383b18cf0896e2c4eaf9d1acab031b3caeaa36570b79ce9da2be6a328d27a1e
+  checksum: 27186e5b907484ed17a9cb803bb2127995a1659e1da9eab36bcd7bfac5d11ed41f7136d9913cc27a8c8c49c3fee5c791dee135c5d37653ddfa0153b69dc3f930
   languageName: node
   linkType: hard
 
-"vite@patch:vite@npm%3A5.0.6#~/.yarn/patches/vite-npm-5.0.6-d33c199e48.patch":
-  version: 5.0.6
-  resolution: "vite@patch:vite@npm%3A5.0.6#~/.yarn/patches/vite-npm-5.0.6-d33c199e48.patch::version=5.0.6&hash=61acc3"
+"vite@patch:vite@npm%3A5.0.7#~/.yarn/patches/vite-npm-5.0.7-583fea8b6f.patch":
+  version: 5.0.7
+  resolution: "vite@patch:vite@npm%3A5.0.7#~/.yarn/patches/vite-npm-5.0.7-583fea8b6f.patch::version=5.0.7&hash=2e56e6"
   dependencies:
     esbuild: "npm:^0.19.3"
     fsevents: "npm:~2.3.3"
@@ -20759,7 +20759,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 197d9dd0e8dd2db16d1493aaee034bf4f1d4e5d5dd38b221f51ed75f98ca3a07f7e9a95ed6c7924f51fd9faae800207d195f742e46594757314c53309dab9848
+  checksum: 2d1130ad160cfce35a8e773cd3246b6b0651ae72fcb335cc61b673210d74cdd3fc0f31be3cbb06d06ce5339a50ea85c0197c6025a3907f2853fd0c8f24e85380
   languageName: node
   linkType: hard
 

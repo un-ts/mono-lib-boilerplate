@@ -61,7 +61,7 @@
     "type-coverage": "^2.27.0",
     "typescript": "^5.3.3",
     "unplugin-auto-import": "^0.17.2",
-    "vite": "^5.0.6",
+    "vite": "^5.0.7",
     "vitest": "^1.0.2"
   },
   "resolutions": {
@@ -70,7 +70,7 @@
     "lint-staged": "^15.2.0",
     "prettier": "^2.8.8",
     "rollup": "^4.6.1",
-    "vite": "patch:vite@npm%3A5.0.6#~/.yarn/patches/vite-npm-5.0.6-d33c199e48.patch"
+    "vite": "patch:vite@npm%3A5.0.7#~/.yarn/patches/vite-npm-5.0.7-583fea8b6f.patch"
   },
   "commitlint": {
     "extends": "@1stg"
