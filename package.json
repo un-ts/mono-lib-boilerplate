@@ -50,7 +50,7 @@
     "pkg": "link:packages/pkg",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.1",
+    "react-router-dom": "^6.21.1",
     "remark-gfm": "^4.0.0",
     "rimraf": "^5.0.5",
     "sass": "^1.69.5",
