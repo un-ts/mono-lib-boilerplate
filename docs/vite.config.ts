@@ -13,6 +13,9 @@ export default defineConfig({
     },
     react(),
   ],
+  build: {
+    outDir: '../dist',
+  },
   server: {
     open: true,
   },

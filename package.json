@@ -16,7 +16,8 @@
     "build:r": "r -f cjs",
     "build:tsc": "tsc -b",
     "clean": "rimraf -g 'packages/**/{lib,*.tsbuildinfo}'",
-    "dev": "vite dev",
+    "dev": "vitest",
+    "docs": "vite docs",
     "lint": "concurrently 'yarn:lint:*'",
     "lint:es": "eslint . --cache -f friendly",
     "lint:style": "stylelint . --cache",
@@ -26,7 +27,7 @@
     "serve": "sirv dist -s",
     "test": "vitest run --coverage",
     "typecov": "type-coverage",
-    "vercel-build": "vite build",
+    "vercel-build": "vite build docs --emptyOutDir",
     "version": "changeset version && yarn --no-immutable"
   },
   "devDependencies": {
