@@ -19,8 +19,8 @@ const Readme = () => {
     'name' in params
       ? import(`../packages/${params.name}/README.md`)
       : 'orgName' in params
-      ? import(`../packages/${params.orgName}/${params.pkgName}/README.md`)
-      : import('../README.md'),
+        ? import(`../packages/${params.orgName}/${params.pkgName}/README.md`)
+        : import('../README.md'),
   )
   return (
     <Suspense>
@@ -36,8 +36,8 @@ const Changelog = () => {
     'name' in params
       ? import(`../packages/${params.name}/CHANGELOG.md`)
       : 'orgName' in params
-      ? import(`../packages/${params.orgName}/${params.pkgName}/CHANGELOG.md`)
-      : import('../CHANGELOG.md'),
+        ? import(`../packages/${params.orgName}/${params.pkgName}/CHANGELOG.md`)
+        : import('../CHANGELOG.md'),
   )
   return (
     <Suspense>
