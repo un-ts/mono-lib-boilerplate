@@ -14334,7 +14334,7 @@ __metadata:
     tsx: "npm:^4.7.0"
     type-coverage: "npm:^2.27.1"
     typescript: "npm:^5.3.3"
-    unplugin-auto-import: "npm:^0.17.3"
+    unplugin-auto-import: "npm:^0.17.5"
     vite: "npm:^5.0.12"
     vitest: "npm:^1.2.1"
   languageName: unknown
@@ -20427,7 +20427,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unimport@npm:^3.7.0":
+"unimport@npm:^3.7.1":
   version: 3.7.1
   resolution: "unimport@npm:3.7.1"
   dependencies:
@@ -20653,9 +20653,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:^0.17.3":
-  version: 0.17.3
-  resolution: "unplugin-auto-import@npm:0.17.3"
+"unplugin-auto-import@npm:^0.17.5":
+  version: 0.17.5
+  resolution: "unplugin-auto-import@npm:0.17.5"
   dependencies:
     "@antfu/utils": "npm:^0.7.7"
     "@rollup/pluginutils": "npm:^5.1.0"
@@ -20663,7 +20663,7 @@ __metadata:
     local-pkg: "npm:^0.5.0"
     magic-string: "npm:^0.30.5"
     minimatch: "npm:^9.0.3"
-    unimport: "npm:^3.7.0"
+    unimport: "npm:^3.7.1"
     unplugin: "npm:^1.6.0"
   peerDependencies:
     "@nuxt/kit": ^3.2.2
@@ -20673,7 +20673,7 @@ __metadata:
       optional: true
     "@vueuse/core":
       optional: true
-  checksum: d287cf3350484227952ad63f938285c80c618ba91f9cdc5698eea038a1c9c1506fb65ca14ac1477b4e3e5912122dec0dc0cac7a3e0668866288511aee102226e
+  checksum: 824a522bc75f47ccefddab21223726235686d4c04a2bef01034ce8ac2d1aeed64dd0187dd107d7c576a94649bccc8fec6f5a4fac32cf47e5ac13eb3fbbe82c10
   languageName: node
   linkType: hard
 
