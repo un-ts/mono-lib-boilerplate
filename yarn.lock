@@ -3787,9 +3787,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/rollup@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@mdx-js/rollup@npm:3.0.0"
+"@mdx-js/rollup@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@mdx-js/rollup@npm:3.0.1"
   dependencies:
     "@mdx-js/mdx": "npm:^3.0.0"
     "@rollup/pluginutils": "npm:^5.0.0"
@@ -3797,7 +3797,7 @@ __metadata:
     vfile: "npm:^6.0.0"
   peerDependencies:
     rollup: ">=2"
-  checksum: c2711669feb7b73712550c56d59281e4794d7ce58a75c3a19f31974b51c4a9f3e5faf35057bfb7277e77e90d21caf9078cf8cb55786c6ce7cdd2c03d4cd133f2
+  checksum: 44469b7ce23f9d9bea66ee5dfc9df24694fd21f13e4e207d473598fe4d56c3b1dbaa7b77fddef91daa0f2a653dce31a8ee773aea8086c3dfa94200fd67864c00
   languageName: node
   linkType: hard
 
@@ -14308,7 +14308,7 @@ __metadata:
     "@changesets/changelog-github": "npm:^0.5.0"
     "@changesets/cli": "npm:^2.27.1"
     "@commitlint/cli": "npm:^18.5.0"
-    "@mdx-js/rollup": "npm:^3.0.0"
+    "@mdx-js/rollup": "npm:^3.0.1"
     "@pkgr/rollup": "npm:^5.0.0"
     "@types/node": "npm:^20.11.5"
     "@types/react": "npm:^18.2.48"
