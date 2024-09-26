@@ -9889,10 +9889,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"github-markdown-css@npm:^5.5.0":
-  version: 5.5.0
-  resolution: "github-markdown-css@npm:5.5.0"
-  checksum: 946fb0e4e703c6e447ea38430a44d9eb2c36a5369307dbffcc0d51c7b8052d7039dd5941e0c4de215a8e007a123e308f84ada624caa44fa3daa3625b373bc4de
+"github-markdown-css@npm:^5.7.0":
+  version: 5.7.0
+  resolution: "github-markdown-css@npm:5.7.0"
+  checksum: e5d9dc87553150167cedbbe98b0d42944c5fa88ae7c01d01f34028e3197148dd8b465fbcdba142a54b013e03e32b8b49135055f5cd74cef82ca0ecb2ed5c513d
   languageName: node
   linkType: hard
 
@@ -14318,7 +14318,7 @@ __metadata:
     "@vitest/coverage-istanbul": "npm:^1.2.1"
     concurrently: "npm:^8.2.2"
     eslint: "npm:^8.56.0"
-    github-markdown-css: "npm:^5.5.0"
+    github-markdown-css: "npm:^5.7.0"
     lint-staged: "npm:^15.2.0"
     pkg: "link:packages/pkg"
     prettier: "npm:^3.2.4"
