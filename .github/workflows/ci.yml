@@ -50,4 +50,4 @@ jobs:
           SKIP_YARN_COREPACK_CHECK: 1
 
       - name: Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
