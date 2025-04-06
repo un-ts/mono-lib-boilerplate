@@ -1,7 +1,1 @@
-.type-coverage
-.vercel
 .yarn
-coverage
-dist
-/auto-imports.d.ts
-/pnpm-lock.yaml

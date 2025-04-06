@@ -1,21 +1,18 @@
-name: Package Size Report
-
+name: Publish Any Commit
 on:
-  pull_request_target:
-    branches:
-      - main
+  - push
+  - pull_request
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  pkg-size-report:
-    name: Package Size Report
+  publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout Repo
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
       - name: Setup Node.js LTS
@@ -24,7 +21,8 @@ jobs:
           node-version: lts/*
           cache: yarn
 
-      - name: Package Size Report
-        uses: pkg-size/action@a637fb0897b6f14f18e776d8c3dbccb34a1ad27b # v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install dependencies
+        run: yarn --immutable
+
+      - name: Publish
+        run: yarn dlx pkg-pr-new publish --compact './packages/*'

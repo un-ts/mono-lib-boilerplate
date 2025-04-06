@@ -5,6 +5,8 @@
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
+!.yarn/releases
 coverage
+dist
 lib
 node_modules
