@@ -7,7 +7,7 @@ import {
   Navigate,
 } from 'react-router-dom'
 
-import './global.scss'
+import './global.css'
 import 'github-markdown-css'
 
 export type Params = { name: string } | { orgName: string; pkgName: string }
@@ -15,10 +15,10 @@ export type Params = { name: string } | { orgName: string; pkgName: string }
 const Readme = () => {
   const params = useParams<Params>() as Readonly<Params>
   const Readme = lazy(() =>
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
     'name' in params
       ? import(`../packages/${params.name}/README.md`)
-      : 'orgName' in params
+      : // eslint-disable-next-line sonarjs/no-nested-conditional
+        'orgName' in params
         ? import(`../packages/${params.orgName}/${params.pkgName}/README.md`)
         : import('../README.md'),
   )
@@ -32,10 +32,10 @@ const Readme = () => {
 const Changelog = () => {
   const params = useParams<Params>() as Readonly<Params>
   const Changelog = lazy(() =>
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
     'name' in params
       ? import(`../packages/${params.name}/CHANGELOG.md`)
-      : 'orgName' in params
+      : // eslint-disable-next-line sonarjs/no-nested-conditional
+        'orgName' in params
         ? import(`../packages/${params.orgName}/${params.pkgName}/CHANGELOG.md`)
         : import('../CHANGELOG.md'),
   )
