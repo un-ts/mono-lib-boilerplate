@@ -3,7 +3,7 @@ name: Vercel Deploy
 on:
   push:
     branches:
-      - master
+      - main
   pull_request: null
 
 concurrency:
@@ -19,7 +19,7 @@ jobs:
 
       - name: Check Branch
         id: branch
-        if: ${{ github.ref  == 'refs/heads/master' }}
+        if: ${{ github.ref  == 'refs/heads/main' }}
         run: |
           echo "args=--prod" >> $GITHUB_OUTPUT
           echo "comment=false" >> $GITHUB_OUTPUT
