@@ -11,7 +11,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "packageManager": "yarn@4.8.1",
+  "packageManager": "yarn@4.9.0",
   "scripts": {
     "build": "concurrently -r 'yarn:build:*'",
     "build:r": "r -f cjs",
