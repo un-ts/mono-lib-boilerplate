@@ -16,9 +16,6 @@
     "index.d.cts",
     "lib"
   ],
-  "dependencies": {
-    "tslib": "^2.8.1"
-  },
   "publishConfig": {
     "access": "public",
     "main": "./lib/index.cjs",

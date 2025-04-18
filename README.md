@@ -14,6 +14,15 @@
 
 > A simple mono library boilerplate
 
+## TOC <!-- omit in toc -->
+
+- [Packages](#packages)
+- [Sponsors and Backers](#sponsors-and-backers)
+  - [Sponsors](#sponsors)
+  - [Backers](#backers)
+- [Changelog](#changelog)
+- [License](#license)
+
 ## Packages
 
 This repository is a monorepo managed by \[changesets]\[] what means we actually publish several packages to npm from same codebase, including:
@@ -22,15 +31,17 @@ This repository is a monorepo managed by \[changesets]\[] what means we actually
 | ---------------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`mono-pkgr`](/packages/mono-pkgr) | A simple mono package | [![npm](https://img.shields.io/npm/v/mono-pkgr.svg)](https://www.npmjs.com/package/mono-pkgr) [![View changelog](https://img.shields.io/badge/changelog-explore-brightgreen)](https://changelogs.xyz/mono-pkgr) |
 
+## Sponsors and Backers
+
 [![Sponsors](https://raw.githubusercontent.com/1stG/static/master/sponsors.svg)](https://github.com/sponsors/JounQin)
 
-## Sponsors
+### Sponsors
 
 | 1stG                                                                                                                   | RxTS                                                                                                                   | UnTS                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | [![1stG Open Collective sponsors](https://opencollective.com/1stG/organizations.svg)](https://opencollective.com/1stG) | [![RxTS Open Collective sponsors](https://opencollective.com/rxts/organizations.svg)](https://opencollective.com/rxts) | [![UnTS Open Collective sponsors](https://opencollective.com/unts/organizations.svg)](https://opencollective.com/unts) |
 
-## Backers
+### Backers
 
 | 1stG                                                                                                                | RxTS                                                                                                                | UnTS                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
