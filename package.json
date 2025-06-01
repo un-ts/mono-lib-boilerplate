@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@1stg/browserslist-config": "^2.1.4",
-    "@1stg/common-config": "^13.0.1",
+    "@1stg/common-config": "^14.0.0",
     "@1stg/stylelint-config": "^6.0.5",
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.2",
@@ -45,7 +45,7 @@
     "@types/node": "^22.14.1",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "@types/web": "^0.0.229",
+    "@types/web": "^0.0.236",
     "@vercel/analytics": "^1.5.0",
     "@vitejs/plugin-react-swc": "^3.9.0",
     "@vitest/coverage-istanbul": "^3.1.1",
