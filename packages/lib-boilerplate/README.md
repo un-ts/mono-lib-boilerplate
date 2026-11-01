@@ -1,6 +1,6 @@
-# mono-pkgr
+# lib-boilerplate
 
-A simple mono package
+A simple library boilerplate
 
 ## TOC <!-- omit in toc -->
 
@@ -19,22 +19,22 @@ A simple mono package
 
 ```sh
 # npm
-npm i mono-pkgr
+npm i lib-boilerplate
 
 # yarn
-yarn add mono-pkgr
+yarn add lib-boilerplate
 
 # pnpm
-pnpm add mono-pkgr
+pnpm add lib-boilerplate
 
 # bun
-bun add mono-pkgr
+bun add lib-boilerplate
 ```
 
 ### API
 
 ```js
-import echo from 'mono-pkgr'
+import echo from 'lib-boilerplate'
 
 echo()
 ```

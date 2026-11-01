@@ -27,9 +27,9 @@
 
 This repository is a monorepo managed by \[changesets]\[] what means we actually publish several packages to npm from same codebase, including:
 
-| Package                            | Description           | Version                                                                                                                                                                                                         |
-| ---------------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`mono-pkgr`](/packages/mono-pkgr) | A simple mono package | [![npm](https://img.shields.io/npm/v/mono-pkgr.svg)](https://www.npmjs.com/package/mono-pkgr) [![View changelog](https://img.shields.io/badge/changelog-explore-brightgreen)](https://changelogs.xyz/mono-pkgr) |
+| Package                                        | Description                  | Version                                                                                                                                                                                                                           |
+| ---------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`lib-boilerplate`](/packages/lib-boilerplate) | A simple library boilerplate | [![npm](https://img.shields.io/npm/v/lib-boilerplate.svg)](https://www.npmjs.com/package/lib-boilerplate) [![View changelog](https://img.shields.io/badge/changelog-explore-brightgreen)](https://changelogs.xyz/lib-boilerplate) |
 
 ## Sponsors and Backers
 

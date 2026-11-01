@@ -1,10 +1,10 @@
 {
-  "name": "mono-pkgr",
+  "name": "lib-boilerplate",
   "version": "0.0.0",
   "type": "module",
-  "description": "A simple mono package",
+  "description": "A simple library boilerplate",
   "repository": "git+https://github.com/un-ts/mono-lib-boilerplate.git",
-  "homepage": "https://github.com/un-ts/mono-lib-boilerplate/blob/main/packages/mono-pkgr",
+  "homepage": "https://github.com/un-ts/mono-lib-boilerplate/blob/main/packages/lib-boilerplate",
   "author": "JounQin <admin@1stg.me> (https://www.1stG.me)",
   "funding": "https://opencollective.com/unts",
   "license": "MIT",
