@@ -42,5 +42,3 @@ jobs:
           pr-title: 'chore: release package(s)'
           publish-script: yarn release
           version-script: yarn run version
-        env:
-          YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
