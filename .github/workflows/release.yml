@@ -43,4 +43,4 @@ jobs:
           publish-script: yarn release
           version-script: yarn run version
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
