@@ -1,1 +1,7 @@
-export { default } from '@1stg/nano-staged'
+import { defineConfig } from '@1stg/nano-staged'
+
+export default defineConfig({
+  commands: {
+    oxfmt: 'oxfmt --ignore-path .gitignore --ignore-path .oxfmtignore',
+  },
+})
