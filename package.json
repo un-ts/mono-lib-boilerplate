@@ -68,7 +68,7 @@
     "type-coverage": "^2.29.7",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
     "typescript-eslint": "^8.72.1",
-    "vite": "^6.4.5",
+    "vite": "^8.3.5",
     "vitest": "^5.0.5",
     "yarn-berry-deduplicate": "^7.0.0"
   },
