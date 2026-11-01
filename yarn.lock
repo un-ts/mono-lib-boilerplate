@@ -5160,6 +5160,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lib-boilerplate@workspace:packages/lib-boilerplate":
+  version: 0.0.0-use.local
+  resolution: "lib-boilerplate@workspace:packages/lib-boilerplate"
+  languageName: unknown
+  linkType: soft
+
 "lines-and-columns@npm:^1.1.6":
   version: 1.2.4
   resolution: "lines-and-columns@npm:1.2.4"
@@ -6293,12 +6299,6 @@ __metadata:
     vite: "npm:^6.4.5"
     vitest: "npm:^5.0.5"
     yarn-berry-deduplicate: "npm:^7.0.0"
-  languageName: unknown
-  linkType: soft
-
-"mono-pkgr@workspace:packages/mono-pkgr":
-  version: 0.0.0-use.local
-  resolution: "mono-pkgr@workspace:packages/mono-pkgr"
   languageName: unknown
   linkType: soft
 
