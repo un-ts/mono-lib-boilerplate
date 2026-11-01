@@ -1,7 +1,6 @@
 *.log
 .*cache
 .type-coverage
-.vercel
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
