@@ -109,25 +109,27 @@ __metadata:
   linkType: hard
 
 "@1stg/nano-staged@npm:^2.0.0":
-  version: 2.2.2
-  resolution: "@1stg/nano-staged@npm:2.2.2"
+  version: 2.3.0
+  resolution: "@1stg/nano-staged@npm:2.3.0"
   dependencies:
     "@1stg/tsconfig": "npm:^5.0.0"
     "@pkgr/utils": "npm:^4.1.0"
-    prettier: "npm:^3.9.10"
   peerDependencies:
     nano-staged: ">=0.8.0"
     oxfmt: ">=0.75.0"
+    prettier: ">=3.0.0"
     typescript: ">=6.0.0"
     vue-tsc: ^3.2.0
   peerDependenciesMeta:
     oxfmt:
       optional: true
+    prettier:
+      optional: true
     typescript:
       optional: true
     vue-tsc:
       optional: true
-  checksum: 10c0/b2b116fd21983b33a5ba303715902768e234bcba7880820118b528c24562bc933b2b691a848f239f6da2177ebf226dfb3802575d03ed5092d696a7af8240452f
+  checksum: 10c0/307de932cc9302aacef54e653de72817e73fc41c9292a5a8c1f2959739df5dab4329a8ee2cedf960f6d3bab02c2c186cc432ee8f7c1af0f0ac03c2327739c16e
   languageName: node
   linkType: hard
 
