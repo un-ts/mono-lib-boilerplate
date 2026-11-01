@@ -35,7 +35,6 @@
   "devDependencies": {
     "@1stg/browserslist-config": "^3.0.0",
     "@1stg/common-config": "^17.0.0",
-    "@1stg/nano-staged": "^2.2.0",
     "@1stg/stylelint-config": "^8.0.0",
     "@changesets/changelog-github": "^1.0.0",
     "@changesets/cli": "^3.0.0",

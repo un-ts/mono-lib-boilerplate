@@ -108,7 +108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@1stg/nano-staged@npm:^2.0.0, @1stg/nano-staged@npm:^2.2.0":
+"@1stg/nano-staged@npm:^2.0.0":
   version: 2.2.0
   resolution: "@1stg/nano-staged@npm:2.2.0"
   dependencies:
@@ -6603,7 +6603,6 @@ __metadata:
   dependencies:
     "@1stg/browserslist-config": "npm:^3.0.0"
     "@1stg/common-config": "npm:^17.0.0"
-    "@1stg/nano-staged": "npm:^2.2.0"
     "@1stg/stylelint-config": "npm:^8.0.0"
     "@changesets/changelog-github": "npm:^1.0.0"
     "@changesets/cli": "npm:^3.0.0"
