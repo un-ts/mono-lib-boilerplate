@@ -5,8 +5,8 @@ export default defineConfig({
     globals: true,
     coverage: {
       enabled: true,
-      include: ['packages/*/src'],
-      provider: 'istanbul',
+      include: ['packages/*/src/**'],
+      provider: 'v8',
       reporter: ['lcov', 'json', 'text'],
     },
   },
