@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig.base",
   "compilerOptions": {
-    "types": ["mdx", "node", "web"]
+    "types": ["mdx", "node", "vite/client", "web"]
   },
   "references": [
     {
