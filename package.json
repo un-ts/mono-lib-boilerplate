@@ -48,6 +48,7 @@
     "@vitest/coverage-v8": "^5.0.5",
     "concurrently": "^10.0.0",
     "eslint": "^10.0.0",
+    "eslint-plugin-yml": "^3.9.0",
     "github-markdown-css": "^5.8.1",
     "nano-staged": "^1.0.0",
     "oxlint": "^1.90.0",
