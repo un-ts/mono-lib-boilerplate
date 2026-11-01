@@ -1,5 +1,8 @@
 {
   "extends": "./tsconfig.base",
+  "compilerOptions": {
+    "types": ["node", "web"]
+  },
   "references": [
     {
       "path": "./packages/mono-pkgr"

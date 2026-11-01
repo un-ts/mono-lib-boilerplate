@@ -21,7 +21,8 @@
     "docs": "vite",
     "format": "prettier --write .",
     "lint": "concurrently -r 'yarn:lint:*'",
-    "lint:es": "eslint . --cache",
+    "lint:eslint": "eslint . --cache",
+    "lint:ox": "oxlint .",
     "lint:style": "stylelint . --cache",
     "lint:tsc": "tsc --noEmit",
     "prepare": "simple-git-hooks && yarn-berry-deduplicate || exit 0",
@@ -38,7 +39,6 @@
     "@changesets/changelog-github": "^1.0.0",
     "@changesets/cli": "^3.0.0",
     "@commitlint/cli": "^21.0.0",
-    "@eslint-react/eslint-plugin": "^5.0.0",
     "@mdx-js/rollup": "^3.1.0",
     "@pkgr/rollup": "^7.0.0",
     "@shikijs/rehype": "^4.0.0",
@@ -50,12 +50,13 @@
     "@vercel/analytics": "^2.0.0",
     "@vitejs/plugin-react-swc": "^4.0.0",
     "@vitest/coverage-istanbul": "^5.0.0",
-    "@vitest/eslint-plugin": "^1.1.43",
     "concurrently": "^10.0.0",
     "eslint": "^10.0.0",
-    "eslint-plugin-react-hooks": "^7.0.0",
     "github-markdown-css": "^5.8.1",
     "nano-staged": "^1.0.0",
+    "oxlint": "^1.90.0",
+    "postcss-html": "^2.0.0",
+    "postcss-markdown": "^2.0.0",
     "prettier": "^3.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -69,12 +70,9 @@
     "tsx": "^4.19.3",
     "type-coverage": "^2.29.7",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
-    "vite": "^6.3.2",
-    "vitest": "^3.1.1",
+    "vite": "^6.4.5",
+    "vitest": "^5.0.5",
     "yarn-berry-deduplicate": "^7.0.0"
-  },
-  "resolutions": {
-    "prettier": "^3.5.3"
   },
   "browserslist": [
     "extends @1stg/browserslist-config/modern"

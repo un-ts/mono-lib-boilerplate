@@ -1,14 +1,8 @@
 import { lazy, Suspense, useMemo } from 'react'
-import {
-  Route,
-  BrowserRouter as Router,
-  Routes,
-  useParams,
-  Navigate,
-} from 'react-router-dom'
+import { Route, BrowserRouter as Router, Routes, useParams, Navigate } from 'react-router-dom'
 
 import './global.css'
-import 'github-markdown-css'
+import 'github-markdown-css/github-markdown.css'
 
 export type Params = { name: string } | { orgName: string; pkgName: string }
 
@@ -22,9 +16,7 @@ const Readme = () => {
           ? import(`../packages/${params.name}/README.md`)
           : // eslint-disable-next-line sonarjs/no-nested-conditional
             'orgName' in params
-            ? import(
-                `../packages/${params.orgName}/${params.pkgName}/README.md`
-              )
+            ? import(`../packages/${params.orgName}/${params.pkgName}/README.md`)
             : import('../README.md'),
       ),
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -47,9 +39,7 @@ const Changelog = () => {
           ? import(`../packages/${params.name}/CHANGELOG.md`)
           : // eslint-disable-next-line sonarjs/no-nested-conditional
             'orgName' in params
-            ? import(
-                `../packages/${params.orgName}/${params.pkgName}/CHANGELOG.md`
-              )
+            ? import(`../packages/${params.orgName}/${params.pkgName}/CHANGELOG.md`)
             : import('../CHANGELOG.md'),
       ),
     // eslint-disable-next-line react-hooks/exhaustive-deps
