@@ -28,6 +28,3 @@ lib
 **/*.yml
 !**/package.json
 **/*.html
-
-# We minify SVGs
-**/*.svg
