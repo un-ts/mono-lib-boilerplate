@@ -108,20 +108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@1stg/nano-staged@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@1stg/nano-staged@npm:2.0.0"
-  dependencies:
-    "@1stg/tsconfig": "npm:^5.0.0"
-    "@pkgr/utils": "npm:^4.1.0"
-    prettier: "npm:^3.9.10"
-  peerDependencies:
-    nano-staged: ">=0.8.0"
-  checksum: 10c0/32601a3d3973418980c5c9577c7b16a7697e2269a187deab4a1153fc51841ee1f689f2619026587ded62db3a8ee0c5d75ed3c80ac3db601283d716605f599b3a
-  languageName: node
-  linkType: hard
-
-"@1stg/nano-staged@npm:^2.2.0":
+"@1stg/nano-staged@npm:^2.0.0, @1stg/nano-staged@npm:^2.2.0":
   version: 2.2.0
   resolution: "@1stg/nano-staged@npm:2.2.0"
   dependencies:
