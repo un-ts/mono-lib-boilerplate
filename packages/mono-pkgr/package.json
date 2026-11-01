@@ -13,13 +13,12 @@
   },
   "exports": "./src/index.ts",
   "files": [
-    "index.d.cts",
     "lib"
   ],
   "publishConfig": {
     "access": "public",
     "main": "./lib/index.cjs",
-    "types": "./index.d.cts",
+    "types": "./lib/index.d.cts",
     "module": "./lib/index.js",
     "exports": {
       "import": {
@@ -31,7 +30,7 @@
         "default": "./lib/index.js"
       },
       "require": {
-        "types": "./index.d.cts",
+        "types": "./lib/index.d.cts",
         "default": "./lib/index.cjs"
       }
     }

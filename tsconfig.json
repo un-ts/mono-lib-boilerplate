@@ -2,10 +2,5 @@
   "extends": "./tsconfig.base",
   "compilerOptions": {
     "types": ["mdx", "node", "vite/client", "web"]
-  },
-  "references": [
-    {
-      "path": "./packages/mono-pkgr"
-    }
-  ]
+  }
 }

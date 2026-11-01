@@ -13,10 +13,8 @@
   ],
   "packageManager": "yarn@4.18.1",
   "scripts": {
-    "build": "concurrently -r 'yarn:build:*'",
-    "build:tsc": "tsc -b",
-    "build:tsdown": "tsdown -W",
-    "clean": "rimraf -g .type-coverage coverage dist '.*cache' 'packages/**/{lib,*.tsbuildinfo}'",
+    "build": "tsdown -W",
+    "clean": "rimraf -g .type-coverage coverage dist '.*cache' 'packages/**/lib'",
     "dev": "vitest",
     "docs": "vite",
     "format": "prettier --write .",
