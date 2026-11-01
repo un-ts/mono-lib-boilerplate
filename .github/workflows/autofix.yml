@@ -27,6 +27,9 @@ jobs:
       - name: Install dependencies
         run: yarn --no-immutable
 
+      - name: Lint Fix
+        run: yarn fix
+
       - name: Format Codes
         run: yarn format
 
