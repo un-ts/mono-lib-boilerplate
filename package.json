@@ -17,7 +17,7 @@
     "clean": "rimraf -g .type-coverage coverage dist '.*cache' 'packages/**/lib'",
     "dev": "vitest",
     "docs": "vite",
-    "fix": "concurrently 'yarn:lint:ox --fix' 'yarn:lint:es --fix'",
+    "fix": "concurrently 'yarn:lint:ox --fix' 'yarn:lint:es --fix' 'yarn:lint:style --fix'",
     "format": "concurrently -r 'yarn:format:*'",
     "format:ox": "oxfmt --ignore-path .gitignore --ignore-path .oxfmtignore .",
     "format:prettier": "prettier --write .",
