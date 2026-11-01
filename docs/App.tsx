@@ -19,7 +19,7 @@ const Readme = () => {
         }
         return import('../README.md')
       }),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // oxlint-disable-next-line react/exhaustive-deps
     [Object.values(params)],
   )
   return (
@@ -42,7 +42,7 @@ const Changelog = () => {
         }
         return import('../CHANGELOG.md')
       }),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // oxlint-disable-next-line react/exhaustive-deps
     [Object.values(params)],
   )
   return (
